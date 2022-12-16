@@ -1,0 +1,46 @@
+Maximum inex will appear first:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visiblity and G-index</title>
+    <style>
+        .box{
+            width: 170px;
+            height: 170px;
+            border: 2px solid red;
+        }
+        /* visiblity hidden  hide the visiblity only*/
+        #box1{
+            visibility: hidden;
+            background-color: blueviolet;}
+        #box2{
+            z-index: 67;
+            top: 39px;
+            position: relative;
+            background-color: rgb(43, 86, 226);}
+
+        /* display will hide the element and will not take space */
+        #box3{
+            display: none;
+            background-color: rgb(43, 226, 119);}
+        #box4{
+
+            /* z-index: will work for the position relative , absolute and fixed; */
+            z-index: -2;
+            top: 0px;
+            position: relative;
+            background-color: rgb(226, 86, 43);
+        }
+    </style>
+</head>
+<body>
+    <!-- div.box#box*4-->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+</body>
+</html>

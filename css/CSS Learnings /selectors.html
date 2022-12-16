@@ -1,0 +1,61 @@
+<!--how the Selectors work in css , can select single or multiple selecting elements -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+    <!--
+
+    >> p { } is for all the paragraph
+    >> #id , way to define for the ids 
+    >>.class,way to define classes 
+    -->
+    <style>
+        /* css definations for the all paragraphs : element selectors */
+        p{
+            color: red;
+        }
+
+        /* css definations for the ids */
+        #blue{
+            color: blue;
+
+
+        }
+    
+        /* css script for the class: class selector */
+    .para
+        {
+            color: yellow;
+            background-color: blue;
+        }
+
+    /* class script for the group of class  */
+    footer,span,Header
+    {
+        color: rgb(250, 117, 7);
+    }
+    </style>
+
+</head>
+<body>
+    <header>
+        This is a Header
+    </header>
+    <h3>CSS selectors</h3>
+    <p id ="blue">this is the simple paragraph to demonstrate CSS selector</p>
+    <!-- if id and class both are mentioned for the same , then Id will get the Priority-->
+    <!-- <p class="para" id="blue">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex atque perspiciatis consectetur sunt corporis voluptatum, odio ipsum perferendis iste, facilis quo rremeiciendis necessitatibus aut dolorem. Delectus deserunt quibusdam eligendi qui?</p>
+   -->
+   <div >
+    <p id="blue">Lorem ipsum dolor sit amet.</p>
+  </div>
+  <footer>
+    This is a footer
+  </footer>
+  <span>This is a span</span>
+     
+</body>
+</html>

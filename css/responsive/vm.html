@@ -1,0 +1,63 @@
+<!-- em_vm_rem_vh -->
+<!-- max width: 100vw;
+maxheight: 100vh; -->
+
+<!-- rem: will be relative of the html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font size units</title>
+    <style>
+        html
+        {
+            font-size: 25px;
+        }
+        .container
+        {
+            /* width: 1900px;
+            height: 700px; */
+            /* vh is viewport height and vw is viewport width; */
+
+            height: 98vh;
+            width: 98vw;
+            
+            /* font-size: 20px; */
+            border: 3px solid rgb(240, 99, 6);
+        }
+        h1
+        {
+            text-align: center;
+            /* font-size: 10em; 10 times the size of the parent element */
+        }
+        /* parent is the text ::before the text we are working  */
+        #first
+        {
+            /* font-size: 1em;
+            padding: 1em; */
+        } 
+        #second
+        {
+            /* padding: will takes n times the size of the parent element; */
+            /* padding: 1em;
+            font-size: 1em; */
+        }
+        /* rem will be relative of the html ie our web page  */
+        #third
+        {
+            /* font-size: 3rem;
+            padding: 3rem; */
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="first">This is the first Heading</h1>
+        <h1 id="second">This is the second Heading</h1>
+         <h1 id="third">This is the second Heading</h1>
+       
+    </body>
+       </html>

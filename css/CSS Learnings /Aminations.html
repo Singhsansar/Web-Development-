@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes and Animations</title>
+    <style>
+        .container
+        {
+            background-color: blue;
+    
+            height: 210px;
+
+        }
+        .box 
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            border: 3px solid black;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            /* animation-name: myanimation; */
+            animation-name: singh ;
+            animation-duration: 9s;
+            animation-iteration-count: 6;  
+            /* define the end of the amination */
+            animation-fill-mode: forwards;
+            /* Ease in out will slow down the animation at the start and end of the animation */
+            /* animation-timing-function: ease-in-out; */
+            animation-direction:alternate-reverse; 
+
+            /* delay in the animation: ; */
+             animation-delay: 2s;
+                /* Animation can be set in a single line as well */
+             /* animation: animation_name duration timing-function delay iteration-count direction fill-mode; */
+
+
+
+        }
+        @keyframes singh 
+        {
+            0% {
+                top: 0px;
+                left: 0px;
+                background-color: green; left: 0px; top: 0px;
+            }
+            25% {
+                top: 200px;
+                background-color: red; left: 200px; top: 0px;}
+            50% {top: 200px;
+                left: 300px;
+                background-color: yellow; left: 200px; top: 200px;}
+            75% {top: 200px;
+                right: 200px;
+                background-color: blue; left: 0px; top: 200px;}
+            100% { top: 200px;
+                    right: 0px;
+                background-color: green; left: 0px; top: 0px;}
+        }
+
+
+        @keyframes myanimation
+        {
+            /* 0% {background-color: green; left: 0px; top: 0px;}
+            25% {background-color: red; left: 200px; top: 0px;}
+            50% {background-color: yellow; left: 200px; top: 200px;}
+            75% {background-color: blue; left: 0px; top: 200px;}
+            100% {background-color: green; left: 0px; top: 0px;} */
+
+            form
+            {
+                width: 200px;
+                height: 200px;
+            }
+            to 
+            {
+                width: 500px;
+                background-color: red;
+                /* left: 200px;
+                top: 200px; */
+
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"> This is a Box </div>
+    </div>
+    </div>
+</body>
+    
+</body>
+</html>

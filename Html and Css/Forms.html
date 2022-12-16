@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <H1>This a Exaple of Form
+    </H1>
+    <Section>
+        Let's Create a form
+    </Section>
+    <main>
+        <div>
+            <form action="form.js">
+                <input type="text" placeholder="Name"><br>
+                <input type="text" placeholder="Age"><br>
+                <input type="date" placeholder="date"><br>
+                <input type="password" placeholder="password"><br>
+                <input type="hidden" placeholder="hidden"><br>
+
+                <!--Id used in the Html and css to map the elements -->
+
+                <!--for the radio buttons having same name , we can only select the a single among them-->
+                <label for="sectionida">
+                    <input type="radio" value="section a" name="section" id="sectionid"> Section A
+                </label>
+                <br>
+                <label for="sectionida">
+                    <input type="radio" value="section a" name="section" id="sectionidb"> Section B
+                </label>
+                <br>
+                <label for="sectionidc">
+                    <input type="radio" value="section a" name="section" id="sectionidc"> Section C
+                </label>
+                <br>
+                <br>
+                
+                <input type="checkbox" name="want food Canteen card " id="foodcaneen" class="red" name="canteen"> <!--id is unique identifier -->
+                <label for="foodcaneen">want food Canteen</label>
+                <br>
+
+                <textarea name="why you want to join our campus?" id="" cols="30" rows="10" placeholder="Expain why you want to join"></textarea> <br>
+                <button type="button" name="submit "> submit</button>
+
+
+                <!--select element from multiple elements like a dropdownbox -->
+                <!--Hyperlink not supported just a dropdown form options -->>
+                <select name="car" id="car">
+                    <option value="no-car">select your car</option>
+                    <option value="hundai"> hundai</a></option>
+                    <option value="BenZ">BenZ</option>
+                    <option value="rollsroyces">rollsroyces</option>
+                    <option value="hundai2"> hundai2</a></option>
+                    <option value="BenZ2">BenZ2</option>
+                    <option value="rolls-royces">rolls-royces</option>
+                    </select>
+                </form>
+
+        </div>
+
+
+    </main>
+</body>
+</html>

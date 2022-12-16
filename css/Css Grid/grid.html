@@ -1,0 +1,52 @@
+<!--used to make different layout in the website-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid in Css</title>
+    <style>
+        .container
+        {
+            /* all the items is grid now  */
+            display: grid;
+            border: 2px solid red;
+            /* grid-template-columns:auto  300px  120px; */
+            /* we can fr unit in the colums  */
+            /* grid-template-columns:1fr 4fr 1fr; */
+
+            /* 10 columns width is set as auto, width will be defined automatically  */
+            grid-template-columns: repeat(4,auto);
+            /* it will create  the gap between the grids  */
+            grid-gap: 2rem;
+        }
+        .item
+        {
+            /* height: 100px;*/
+            width: 400px; 
+            background-color: green;
+           
+            border: 2px solid black;
+            margin: 3px;
+        }
+
+    </style>
+</head>
+<body>
+  
+        <div class="container">
+            <div class="item">This is Item-1</div>
+            <div class="item">This is Item-2</div>
+            <div class="item">This is Item-3</div>
+            <div class="item">This is Item-4</div>
+            <div class="item">This is Item-5</div>
+            <div class="item">This is Item-6</div>
+            <div class="item">This is Item-7</div>
+            <div class="item">This is Item-8</div>
+            <div class="item">This is Item-9 </div>
+            <div class="item">This is Item-7</div>
+            <div class="item">This is Item-8</div>
+       </div>
+</body>
+</html>

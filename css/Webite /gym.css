@@ -1,0 +1,148 @@
+.left {
+    /*  position absoulte fix the position */
+    left: 55px;
+    top: 20px;
+    position: absolute;
+    /*Make the right div float to the right of the page */
+    display: inline-block;
+    /* border: 2px solid blue; */
+
+}
+
+.mid {
+    /* display: inline-block; */
+    /* display: inline-block; */
+    display: block;
+    width: 76%;
+    margin: 90px auto;
+    /* font-weight: bold; */
+    /* border: 2px solid green; */
+
+}
+
+.right {
+    right: 34px;
+    top: 20px;
+    /*  position absoulte fix the position */
+    position: absolute;
+    /*Make the right div float to the right of the page */
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+.header
+{
+    background-color: blue;
+
+}
+
+.btn {
+    margin: 0px 9px;
+    /*  vertical horizontal magin */
+    /* background-color: black; */
+    background-color: black;
+    padding: 5px 25px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid gray;
+    font-size: 18px;
+}
+
+.btn:hover,
+.btn.active {
+    text-decoration: underline;
+    color: rgb(201, 196, 196);
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    font-size: 20px;
+    color: while;
+    display: inline-block;
+}
+
+.navbar li a {
+
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* hover when we point to that link the link will be ubderlined */
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img {
+    /* filter: invert(100%);  invert the color of the image  */
+    width: 136px;
+    filter: invert(100%)
+}
+
+.left div {
+    /* line between pic and text */
+
+    line-height: 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: white
+}
+
+
+.container {
+    text-align: center;
+    font-weight: bold;
+    border: 2px solid white;
+    margin: 80px 290px;
+    padding: 75px 75px;
+    width: 21%;
+    display: block;
+    border-radius: 36px;
+}
+
+body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("https://images.pexels.com/photos/136404/pexels-photo-136404.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* .form-group
+{
+    width: 20px;
+    padding: 10px;
+} */
+
+.form-group input {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 289px;
+    margin: 17px auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    /* font-weight: bold; */
+    border-radius: 10px;
+    border: 2px solid rgb(0 0 0);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    color: rgb(255, 255, 255);
+    width: 116px;
+    margin:auto;
+    text-align: center;
+}

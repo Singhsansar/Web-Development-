@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container
+        {
+            /*   it become flex container and flex items  */
+            display: flex;
+
+            height: 344px;
+            width: 100%;
+            border: 2px solid black;
+
+            /* properties for the flex container 
+            initialize a container as a flex box*/
+            flex-direction: column; /* row, row-reverse, column, column-reverse : row reverse is default */ 
+            flex-wrap: wrap; /*  /* wrap, nowrap, wrap-reverse : nowrap is default */
+            flex-wrap: wrap-reverse;/*  */ 
+            flex-flow: row wrap; /* flex-direction and flex-wrap in one property */
+
+            /* Justify content justify the contents in the horizontal Direction*/
+            justify-content: center; /* flex-start, flex-end, center, space-between, space-around, space-evenly : flex-start is default */
+            justify-content: space-evenly;
+            justify-content: space-between;
+            justify-content: space-around;
+
+            /*align items justify the contents in the vertical Direction*/
+            align-items: center;
+            align-items: flex-start;
+            align-items: flex-end;
+            align-items: stretch; /* stretch is default */
+
+        
+        
+        }
+             
+        .items  
+        {
+            width: 200px;
+            height: 200px;
+            background-color: tomato;
+            border: 2px solid rgb(43, 255, 0) ;
+            margin: 10px;
+            padding: 2px;
+        }
+        /* Higher the order later shown  */
+        #items-1
+        {
+            /* Order will change the order of the flex items as they appearance in the flex container; */
+            order: 2;
+
+            align-self: flex-end; /* flex-start, flex-end, center, stretch, baseline : stretch is default */
+            align-self: center;
+            align-self: flex-start;
+            align-self: stretch;
+            align-self: baseline;
+            
+
+            flex: 2 2 200px; /* flex-grow flex-shrink flex-basis */
+        }
+        #items-2
+        {
+            /* Flexgrow is allow to grow the flex item , higher flex grow higher the size of the flex item */
+            order: 3;
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+        #items-3
+        {   
+            /* when flex diection is set to row flexbasis: will control width   */
+            /* when flex diection is set to column flexbasis: will control height */
+            flex-basis: 520px;
+            order: 1;
+            flex-shrink: 3;
+        }
+    </style>
+</head>
+<body>
+    <h1>FlexBox</h1>
+    <div class="container">
+        <!-- div.items#items-$*6 -->
+        <div class="items" id="items-1">First box</div>
+        <div class="items" id="items-2">second box</div>
+        <div class="items" id="items-3">Third box</div>
+        <!-- <div class="items" id="items-4">Fourth box</div>
+        <div class="items" id="items-5">fifth Box</div>
+        <div class="items" id="items-6">Sixth Block</div> -->
+    </div>
+</body>
+</html>
