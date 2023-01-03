@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript class</title>
+</head>
+<body>
+    <script>
+        let  Rectangle = class
+        {
+            //class can be constructed even without the constructor 
+            constructor(length , bredth)
+            {
+                this.length=length
+                this.bredth = bredth
+            }
+
+            //shetter 
+            set abc(area)
+            {
+                this.area = area 
+
+            }
+            //Getter 
+            get area()
+            {
+                return this.calarea();
+            }
+
+            calarea()
+            {
+                return this.length*this.bredth
+            }
+
+            Volume()
+            {
+                return this.length*this.bredth*100
+            }
+
+            // method area()
+            // {
+
+            // }
+        }
+
+    let length = 100;
+    let bredth = 200;
+    M = new Rectangle(length,bredth)
+    console.log("Bredth : "+M.bredth)
+    console.log("length : "+M.length)
+    console.log("area : "+M.area)   //it a getter so it will  directly return the value as static variable 
+    console.log("Volume:"+M.Volume())
+    </script>
+    
+</body>
+</html>
