@@ -1,0 +1,211 @@
+.min-h-screen
+{
+    /* min height of main will be 100vh */
+    min-height: 100vh;
+}
+
+
+/* mx-auto will allow the page pargin according to all changes, if margin is not auto , it is sai to zero  */
+ .mx-auto
+{
+    margin-right: auto;
+    margin-left: auto;
+    /* text-align: center; */
+} 
+
+/* container is taking all the website to the center  */
+.container
+{
+    max-width: 80vw;
+} 
+.flex
+{
+    /* display flex is used to make the elements flexiable , so that it's position can be changed  */
+    display: flex;
+}
+.items-center
+{
+    /* Aligens the items to the vertical center */
+    align-items: center;
+}
+
+/* create a space between all the items in the class or the given container */
+.justify-center
+{
+    /* align the items to horizontal center */
+    justify-content:center;
+}
+
+.justify-between
+{
+    justify-content: space-between;
+}
+
+.navbar
+{
+    display: flex;
+    height: 7vh;
+    font-family: 'Ubuntu',sans-serif;
+}
+/* change the the flexbox items in the colums */
+.flex-col
+{
+    
+    flex-direction: column;
+}
+.navbar li
+{
+    /* no more listing style, means bullets will be lost  */
+    list-style: none;
+    margin: 0 12px;
+
+    /* font-style: normal;
+    color: black;
+    padding: 2rem;
+    display: inline; */
+}
+
+
+.font
+{
+    font-weight: 900;
+    font-family:'Ubuntu',sans-serif;
+}
+
+.my-1
+{
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+/* padding between elements in the class */
+.px-2   
+{
+    padding-left: 13px;
+    padding-right: 12px;
+}
+
+.text-blue 
+{
+    color: rgb(227,74,56);
+}
+
+.btn
+{
+    cursor: pointer;
+    padding: 6px 12px;
+    border: 2px solid rgb(253, 253, 253);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(227,74,56);
+}   
+.btn:hover btn:active
+{
+    background-color: rgb(227,74,56);
+}
+.oveflow-hidden
+{
+    overflow: hidden;
+}
+img
+{
+    width: 32vw;
+    height: 80vh;
+    align-self: center;
+    
+}
+.text-center
+{
+    text-align: center;
+}
+
+
+/* Section2 */
+.section-2 p
+{
+    margin: 5vh 11vw;
+
+}
+.section-2 h1
+{
+    font-size: 3rem;
+    font-family: 'Ubuntu',sans-serif;;
+
+}
+
+.section-2 
+{
+    margin: 16vh;
+   /* padding-left: 10vw;
+   padding-right: 10vw   ; */
+}
+
+.box {
+    padding-top: 2vh;
+    flex-direction: column;
+    min-width: 19vw;
+    min-height: 30vh;
+    border: 2px solid  rgb(227,74,56);
+    border-radius: 10px;
+}
+.box ul
+{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.box button
+{
+    margin-top: 2vh;
+    padding: 1.5vh 2vw;
+}
+.box ul li
+{
+    margin-top: 5px;
+}
+
+.plantable 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3
+{
+    margin-top: 8vh;
+}
+
+.section-3 table 
+{
+    
+    margin-top: 8vh;
+    width: 100vw;
+    border-collapse: collapse;
+    margin-bottom: 10vh;
+}
+
+
+.section-3 th
+{
+    padding: 2.3vh 0vw ;
+    width: 23vw;
+    border-bottom: 2px solid rgb(206, 197, 197);
+}
+
+
+.section-3 td
+{
+    
+    width: 23vw;
+    border-bottom: 2px solid rgb(206, 197, 197);
+}
+
+footer
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:  rgb(227,74,56);;
+}

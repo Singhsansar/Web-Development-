@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+
+*{
+    margin-top: 0;
+    margin-left: 0;
+    font-family: 'ubuntu',sans-serif;
+}
+.res
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container 
+{
+    background-color: beige;
+    min-height: 100vh;
+    max-width: 60vw;
+}
+header div 
+{
+    height: 30vh;
+    background-color: brown;
+}
+
+.error 
+{
+    color: red;
+
+}
+.button
+{
+    color: rgb(252, 252, 252);
+    background-color: brown;
+}
+
+main 
+{
+    margin-top:7vh ;
+}
+
+.formdesign 
+{
+    padding-top: 2vh;
+
+}
+
+main input
+{
+    padding:2vh 10vw ;
+}
+
+/* utility  */
+.text-center
+{
+    text-align: center;
+}
+
+.items-center
+{
+    align-items: center;
+}
+
+.flex
+{
+    display: flex;
+}
+.justify-center
+{
+    justify-content: center;
+}
+
+.flex-col
+{
+    flex-direction: column;
+}
+
+.hidden
+{
+    display: none;
+}

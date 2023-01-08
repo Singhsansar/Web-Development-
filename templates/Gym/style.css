@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+    font-family: 'Ubuntu',sans-serif;;
+}
+
+.topleft
+{
+    max-width: 50%;
+    padding: 12px 0;
+}
+.topright
+{
+    max-width: 50%;
+    padding: auto;
+}
+.section-1
+{
+    min-height: 60vh;
+    max-height: 100vh;
+}
+
+li
+{
+    /* background-color: black; */
+    list-style: none;
+    text-decoration: none; 
+    
+}
+
+/* relative margin with top and button */
+.logo
+{
+    font-size: 3vw;
+}
+.dumbell
+{
+    width: 12vw;
+    height: 17vh;
+}
+.section-1 h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+
+.section-3 h1
+{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
