@@ -1,0 +1,5 @@
+//pug and handelbars is used to create a webpage in backend side , recommended in the web applications where several webpages need to make for the various users 
+//moongose 
+
+//handelbars is a templeting engine 
+//expres handel bars 

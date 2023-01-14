@@ -1,0 +1,50 @@
+Build-in Modules 
+
+-> os 
+-> path
+-> fs
+-> HTTP
+
+readfile is a asnychrionous and readfilesync is a synchronious 
+
+//npm --global <packagename>
+//npm --version
+
+//local dependency - use this only in this project 
+//nmp i <packagename>
+
+//global 
+//nmp  install -g <packagename>
+//sudo install -g <packagename> for(mac)
+
+//package.json -- manifest file (stores important information about project/packages)
+//manual approach (create package.json in the root , create properties etc)
+//npm -init (step by step ,press enter to skip)
+//npm init -y (everything default)
+
+//only unique packages can be published 
+//npm i loadsh : utility packages
+
+.gitignore containing folder will be ignored when uploading into git 
+
+//how to download all dependensies in node after downloading a project 
+npm install (download everything and setup it for you)
+
+nodemon 
+
+//Dev Dependencies are those libraries or modules that are required for the development process but not required when the application runs
+//dev dependensies 
+//sudo npm i nodemon -D
+
+
+//in package.json we can set the the script commands can runs automatically 
+
+//nodemon keep track of changes in code 
+
+just do : npm start 
+in nodemon 
+
+ npm run dev , if app is metioned in package which should be run
+
+ //uninstall a packages in npm 
+ npm uninstall bootstrap

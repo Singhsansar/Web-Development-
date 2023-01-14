@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "loadsh": "^0.0.4",
+    "math": "^0.0.3"
+  },
+  "name": "intro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "sfhsdj"
+}

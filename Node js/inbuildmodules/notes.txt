@@ -1,0 +1,7 @@
+//blocking and unblocking code 
+synchronous and asnychrionous code 
+//call back hell is used if there is a many number of nected call back is used 
+
+asynchronous code is non-blocking, while synchronous code is blocking.
+
+When code is asynchronous, it means that the program will continue to execute other code while waiting for the asynchronous operation to complete. For example, when using 

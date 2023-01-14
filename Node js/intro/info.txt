@@ -1,0 +1,29 @@
+Can be seen in Debug console
+
+Node js is used to run js out the Browser 
+we can run Node js on Terminal as well
+No-windows in Node js
+
+
+console.log(__dirname)  //return path of directory we are working on
+console.log(__filename) //return path of directory including the filename we are working on
+console.log(process)    //return all the informations about the current process
+console.log(module)     //informations about the modules we are working on 
+console.log(require)    //info about current module(file)
+
+//set interval of every1 sec 
+setInterval(()=>
+{
+    console.log("Hello World")
+
+},1000)
+
+//set timer of 2 sec(2000 miliseconds)
+setTimeout(() => {
+    console.log("Hello")
+}, 2000);
+
+Es6, sharing only what we want 
+{
+    export{}
+}
